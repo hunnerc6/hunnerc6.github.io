@@ -1,0 +1,283 @@
+body {
+  background-color: green;
+}
+#aboutH {
+	font-family: "Comic Sans MS";
+	background-color: white;
+	text-align: center;
+}	
+#aboutLinks {
+	font-family: "Comic Sans MS";
+	background-color: white;
+	text-align: center;
+}	
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: center;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+#main-nav {
+    width: 100%;
+    height: 67px;
+    background: #f2f2f2;
+}
+#main-nav .subnav {
+    display: none;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    width: 100%;
+    list-style-type: none;
+    background: #fff;
+    margin: 0;
+    border:solid 1px #eeeeee;
+    z-index:5;
+    padding:0;
+}
+#main-nav .subnav li {
+    display: block;
+    border-bottom: solid 1px #eeeeee;
+    margin:0;
+}
+#main-nav .subnav li a {
+    color: #333;
+    height:18px;
+    padding:10px 0;
+    font-size:13px;
+}
+#main-nav .subnav li a:hover {
+    background:#f9f9f9;
+}
+#nav-primary {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    padding:0;
+}
+#nav-primary li {
+    float: left;
+    position: relative;
+}
+#nav-primary li a {
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    height: 48px;
+    padding-top: 19px;
+    line-height: 16px;
+    width: 164px;
+    text-decoration:none;
+}
+#nav-primary li a:hover {
+    text-decoration:none;
+}
+#nav-primary li:hover .subnav {
+    display: block;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* img { */
+    /* display: inline-block; */
+    /* width: 25%; // Show 4 images in a row normally */
+    /* height: auto; */
+/* } */
+
+/* @media (max-width: 600px) { */
+  /* img { */
+    /* width: 100%; // Override width to show only one image in a row on smaller screens */
+  /* } */
+/* } */
+
+.box {
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+img {
+  display:inline-block;
+  width:768px;
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    img {
+        width:100%;
+    }
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.message-wrapper {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
