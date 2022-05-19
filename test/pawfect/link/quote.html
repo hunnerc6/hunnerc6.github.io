@@ -1,14 +1,15 @@
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/x-icon" href="../img/pawprint.ico">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="stylesheet" href="../style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-		<title>Get a Quote | Pawfect</title>
+		<title>Get a Quote | Pawfect | Chrisman.xyz</title>
 	</head>
 	<body>
 	<body>
@@ -22,7 +23,7 @@
 						<li><a class="main-nav-link" href="#services">Our Services</a></li>
 						<li><a class="main-nav-link" href="#about">About Us</a></li>
 						<li>
-							<a class="main-nav-link nav-cta" href = "../Pawfect.html">Home</a>
+							<a class="main-nav-link nav-cta" href = "https://www.chrisman.xyz/test/pawfect/">Home</a>
 						</li>
 					</ul>
 				</nav>
@@ -33,9 +34,37 @@
 						<h1 class="heading-primary">
 							Request a quote today for your beloved pet! They will love a fresh, clean coat!
 						</h1>
-						<p class="hero-description">
-							Veniome Pawfect ea fugiat itaque, aut unde ratione veniam ipsum temporibus cumque sunt nemo assumenda facere?
-						</p>
+						<div class="container">
+							<div class="row">
+								<div class="column">
+									<form method="post" action="action_page.php" >
+										<p>
+											<label for="fname">First Name: </label>
+											<input type="text" id="fname" name="firstname" placeholder="Your name...">
+											<br>
+											<label for="lname">Last Name: </label>
+											<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+											<br>
+											 <label for="fname">Email: </label>
+											<input type="text" id="email" name="uemail" placeholder="Your email...">
+											<br>
+											<label for="country">Country: </label>
+											<select id="country" name="country">
+											  <option value="usa">USA</option>
+											  <option value="canada">Canada</option>
+											  <option value="australia">Australia</option>
+											</select>
+											<br>
+											<label for="subject">Subject: </label>
+											<br>
+											<textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
+											<br>
+											<input type="submit" value="Submit">
+										</p>
+									</form>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
