@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		meta charset="UTF-8">
+		<meta charset = "utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Kailee and Hunter Wedding Homepage">
-		<meta name="keywords" content="Hunter, Kailee, Kryger, Chrisman, wedding, chrisman.xyz">
-		<title>Wedding | Chrisman.xyz</title>
+		<title>Home | Chrisman.xyz</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="HC.ico?">
@@ -32,7 +30,7 @@
 	</head>
 	<body>
 		<div class="navbar">
-			<a href="https://www.chrisman.xyz/"target="_blank">Home</a>
+			<a href="#home">Home</a>
 			<!-- <a href="https://google.com" class="button">Google</a> -->
 			<div class="dropdown">
 				<button class="dropbtn">Other Sites
@@ -67,15 +65,15 @@
 			}
 		</script>
 		<div class="about-section">
-			<h1>Wedding</h1>
-			<p>Welcome to our wedding homepage!</p>
+			<h1>Home</h1>
+			<p>Welcome to my homepage!</p>
 		</div>
-		<h2 style="text-align:center">About Us</h2>
+		<h2 style="text-align:center">About Me</h2>
 		<div class="row">
 			<div class="column">
 				<div class="card">
 					<center>
-						<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%" title="Kailee and Hunter at Disney World in 2021.">
+						<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%">
 					</center>
 					<div class="container">
 						<h2 style="text-align:center">Hunter Chrisman</h2>
