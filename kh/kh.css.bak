@@ -1,4 +1,12 @@
 body {
+  background-color: orange;
+}
+#aboutLinks {
+	font-family: "Comic Sans MS";
+	background-color: white;
+	text-align: center;
+}	
+body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -205,6 +213,18 @@ a.button {
   display: block;
 }
 
+/* img { */
+    /* display: inline-block; */
+    /* width: 25%; // Show 4 images in a row normally */
+    /* height: auto; */
+/* } */
+
+/* @media (max-width: 600px) { */
+  /* img { */
+    /* width: 100%; // Override width to show only one image in a row on smaller screens */
+  /* } */
+/* } */
+
 .box {
   display:inline-block;
   width:100%;
@@ -245,9 +265,9 @@ img {
 
 .message {
   padding: 15px 40px;
-  background-color: #808000;
+  background-color: #5dca88;
   cursor: pointer;
-  box-shadow: 0 7px #867e36;
+  box-shadow: 0 7px #1a7940;
 }
 
 .message:active {
@@ -274,20 +294,4 @@ img {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
-}
-
-/* table td {
-	font-weight:bold;
-	} */
-	
-.khDate {
-	font-size: 30px;
-	font-weight: bolder;
-	font-style: italic;
-	font-family: serif;
-}
-
-.khParagraph {
-	font-size: 20px;
-	font-family: serif;
 }

@@ -3,14 +3,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Hunter Chrisman Homepage">
-		<meta name="keywords" content="Hunter, Chrisman, chrisman.xyz">
-		<title>Default | Chrisman.xyz</title>
+		<meta name="description" content="Kailee and Hunter Wedding Homepage">
+		<meta name="keywords" content="Hunter, Kailee, Kryger, Chrisman, wedding, chrisman.xyz">
+		<title>Wedding | Chrisman.xyz</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="HC.ico?">
+		<style>
+			#grad {
+				background-color: lightgreen;
+				background-image: linear-gradient(to bottom, #647c5c, #5e644f);
+			}
+		</style>
 	</head>
-	<body>
+	<body id="grad">
 		<div class="navbar">
 			<a href="https://www.chrisman.xyz/"target="_blank">Home</a>
 			<div class="dropdown">
@@ -46,26 +52,44 @@
 			}
 		</script>
 		<div class="about-section">
-			<h1>Default</h1>
-			<p>Default page for copy and pasting to create new pages.</p>
+			<h1>Kailee & Hunter - Wedding</h1>
+			<p>Welcome to our wedding homepage!</p>
 		</div>
-		<h2 style="text-align:center">About Me</h2>
-		<div class="row">
-			<div class="column">
-				<div class="card">
-					<center>
-						<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%" title="No image will display because the src isn't in this folder.">
-					</center>
-					<div class="container">
-						<h2 style="text-align:center">Hunter Chrisman</h2>
-						<p class="title">Student, Service Desk Analyst, Major Sales</p>
-						<p>I am a student a University of Wisconsin-Green Bay. I work at the IT Service Desk at UWGB and Major Sales at Costco. My interests range from technology to cooking. I am also interested in acting, singing, and I love animals.</p>
-						<p>Email: hunter@chrisman.xyz</p>
-						<p><button class="button">Contact</button></p>
-					</div>
+		<center>
+		<br>
+			<div class="message-wrapper">
+				<div class="container">
+					<span>
+						<a class="btn message" href = "https://www.chrisman.xyz/wedding/" style="text-decoration: none;">Home</a>
+						<a class="btn message" href = "https://www.chrisman.xyz/wedding/day-plan/" style="text-decoration: none;">Day Plan</a>
+						<a class="btn message" href = "https://www.chrisman.xyz/wedding/our-story/" style="text-decoration: none;">Our Story</a>
+						<a class="btn message" href = "https://www.chrisman.xyz/wedding/q-a/" style="text-decoration: none;">Q & A</a>
+						<a class="btn message" href = "https://www.chrisman.xyz/wedding/wedding-party/" style="text-decoration: none;">Wedding Party</a>
+					</span>
 				</div>
+			</div>	
+			<div class="card">
+				
+					<img src="khpropose.jpg" alt="Kailee and Hunter Propose" style="width:50%" title="Kailee and Hunter after proposal in Disney World - 2021.">
+					<div class="container">
+						<table>
+								<tr>
+									<td class="khDate">May 6th, 2023</td>
+									<td class="khDate">&nbsp|&nbsp</td>
+									<td class="khDate">Green Bay, WI</td>
+								</tr>
+						</table>
+					</div>
+				<br>
+				<p class="khParagraph">
+					Kailee and Hunter are getting married on May 6th, 2023. They have been dating since October 16th, 2017 and they met in high school.
+					<br>
+					<br>
+					Continue on through our site to learn more about us and the wedding!
+				</p> 
+				<br>
 			</div>
-		</div>
+		</center>
 		<footer>
 			<div class="container">
 				<p>Thanks for viewing the site!</p>
