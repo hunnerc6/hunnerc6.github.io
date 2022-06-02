@@ -247,7 +247,7 @@ img {
   padding: 15px 40px;
   background-color: #808000;
   cursor: pointer;
-  box-shadow: 0 7px #867e36;
+  box-shadow: 0 7px #4b5320;
 }
 
 .message:active {
