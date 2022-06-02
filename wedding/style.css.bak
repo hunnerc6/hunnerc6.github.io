@@ -227,7 +227,7 @@ a.button {
 	font-weight:bold;
 	} */
 	
-.khDate {
+.font-properties {
 	font-size: 30px;
 	font-weight: bolder;
 	font-style: italic;

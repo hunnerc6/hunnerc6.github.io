@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset = "utf-8" />
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Hunter Chrisman Homepage">
+		<meta name="keywords" content="Hunter, Chrisman, chrisman.xyz">
 		<title>Home | Chrisman.xyz</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="HC.ico?">
-		<script>
+		<!-- <script>
 			//Get the button
 			var mybutton = document.getElementById("myBtn");
 
@@ -26,7 +28,7 @@
 				document.body.scrollTop = 0;
 				document.documentElement.scrollTop = 0;
 			}
-		</script>
+		</script> -->
 	</head>
 	<body>
 		<div class="navbar">

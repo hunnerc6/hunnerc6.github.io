@@ -3,43 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Kailee and Hunter Wedding Homepage">
-		<meta name="keywords" content="Hunter, Kailee, Kryger, Chrisman, wedding, chrisman.xyz">
-		<title>Wedding | Chrisman.xyz</title>
+		<meta name="description" content="Hunter Chrisman Homepage">
+		<meta name="keywords" content="Hunter, Chrisman, chrisman.xyz">
+		<title>Default | Chrisman.xyz</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="HC.ico?">
-		<script>
-			//Get the button
-			var mybutton = document.getElementById("myBtn");
-
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
-
-			function scrollFunction() {
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					mybutton.style.display = "block";
-				} else {
-					mybutton.style.display = "none";
-				}
-			}
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() {
-				document.body.scrollTop = 0;
-				document.documentElement.scrollTop = 0;
-			}
-		</script>
-		<style>
-			#grad {
-				background-color: lightgreen;
-				background-image: linear-gradient(to bottom, #647c5c, #5e644f);
-			}
-		</style>
 	</head>
-	<body id="grad">
+	<body>
 		<div class="navbar">
 			<a href="https://www.chrisman.xyz/"target="_blank">Home</a>
-			<!-- <a href="https://google.com" class="button">Google</a> -->
 			<div class="dropdown">
 				<button class="dropbtn">Other Sites
 					<i class="fa fa-caret-down"></i>
@@ -73,30 +46,26 @@
 			}
 		</script>
 		<div class="about-section">
-			<h1>Kailee & Hunter - Wedding</h1>
-			<p>Welcome to our wedding homepage!</p>
+			<h1>Default</h1>
+			<p>Default page for copy and pasting to create new pages.</p>
 		</div>
-		<center>
-			<div class="card">
-				
-					<img src="khpropose.jpg" alt="Kailee and Hunter Propose" style="width:50%" title="Kailee and Hunter after proposal in Disney World - 2021.">
+		<h2 style="text-align:center">About Me</h2>
+		<div class="row">
+			<div class="column">
+				<div class="card">
+					<center>
+						<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%" title="No image will display because the src isn't in this folder.">
+					</center>
 					<div class="container">
-						<table>
-								<tr>
-									<td class="khDate">May 6th, 2023</td>
-									<td class="khDate">&nbsp|&nbsp</td>
-									<td class="khDate">Green Bay, WI</td>
-								</tr>
-						</table>
+						<h2 style="text-align:center">Hunter Chrisman</h2>
+						<p class="title">Student, Service Desk Analyst, Major Sales</p>
+						<p>I am a student a University of Wisconsin-Green Bay. I work at the IT Service Desk at UWGB and Major Sales at Costco. My interests range from technology to cooking. I am also interested in acting, singing, and I love animals.</p>
+						<p>Email: hunter@chrisman.xyz</p>
+						<p><button class="button">Contact</button></p>
 					</div>
-
-				<h2 style="text-align:center">Kailee & Hunter</h2>
-				<p>Kailee and Hunter are getting married on May 6th, 2023. They have been dating since October 16th, 2017 and they met in high school.
-				<br>
-				<br>
-				In highschool they participated in choir and theatre.</p>
+				</div>
 			</div>
-		</center>
+		</div>
 		<footer>
 			<div class="container">
 				<p>Thanks for viewing the site!</p>
@@ -104,4 +73,5 @@
 		</footer>
 	</body>
 </html>
+
 
