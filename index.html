@@ -1,78 +1,105 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Hunter Chrisman Homepage">
-		<meta name="keywords" content="Hunter, Chrisman, chrisman.xyz">
-		<title>Home | Chrisman.xyz</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="icon" type="image/x-icon" href="HC.ico?">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div class="navbar">
-			<a href="#home">Home</a>
-			<div class="dropdown">
-				<button class="dropbtn">Other Sites
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-content">
-					<a href="https://www.chrisman.xyz/kh/" target="_blank">Kailee & Hunter</a>
-					<a href="https://www.chrisman.xyz/test/pawfect/" target="_blank">Pawfect-HTML Test</a>
-					<a href="https://www.chrisman.xyz/test/progate/" target="_blank">Progate-HTML Test</a>
-					<a href="https://www.chrisman.xyz/about/" target="_blank">About Me</a>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hunter Chrisman Homepage">
+	<meta name="keywords" content="Hunter, Chrisman, chrisman.xyz">
+	<title>Home | Chrisman.xyz</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="HC.ico?">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="#home">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Other Sites
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="https://www.chrisman.xyz/kh/" target="_blank">Kailee & Hunter</a>
+				<a href="https://www.chrisman.xyz/test/pawfect/" target="_blank">Pawfect-HTML Test</a>
+				<a href="https://www.chrisman.xyz/test/progate/" target="_blank">Progate-HTML Test</a>
+				<a href="https://www.chrisman.xyz/about/" target="_blank">About Me</a>
+			</div>
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<div class="about-section">
+		<h1>Home</h1>
+		<p>Welcome to my homepage!</p>
+	</div>
+	<h2 style="text-align:center">About Me</h2>
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<center>
+					<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%">
+				</center>
+				<div class="container">
+					<h2 style="text-align:center">Hunter Chrisman</h2>
+					<p class="title">Student, Technical Support Service Tier 3 Lead</p>
+					<p>I'm a versatile individual with a dual passion for information technology and the performing
+						arts. I thrive in fast-paced environments, bringing creativity and a fresh perspective to every
+						challenge.
+					</p>
+					<br>
+					<h3>Professional Background</h3>
+					<p>With a strong background in customer service, sales, training, and technical support, I have
+						experience in managing end user devices, inventory and information systems, as well as
+						implementing multi-factor authentication programs. Currently, I'm honing my skills at the
+						University of Wisconsin - Green Bay's IT Department.
+					</p>
+					<h3>Passion for Performing Arts</h3>
+					<p>My involvement in band, choir, and theatre has not only been a passion but also a platform to
+						hone my communication and teamwork skills. These experiences have been instrumental in building
+						lasting relationships and providing top-notch support in my professional roles.
+					</p>
+					<h3>My Skillset and Future Goals</h3>
+					<p>I am dedicated to continually expanding my skill set and staying updated with the latest industry
+						trends. As a quick learner with keen attention to detail, I aim to make a meaningful impact in
+						the field of information technology while creating a positive work environment for my team.
+					</p>
+					<p>
+						Feel free to <a href="mailto:hunter@chrisman.xyz">reach out</a> if you’d like to connect or
+						collaborate!
+					</p>
+
+					<p>Email: hunter@chrisman.xyz</p>
+					<p><button class="button">Contact</button></p>
 				</div>
 			</div>
 		</div>
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-		<script>
-			//Get the button
-			var mybutton = document.getElementById("myBtn");
-
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
-
-			function scrollFunction() {
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					mybutton.style.display = "block";
-				} else {
-					mybutton.style.display = "none";
-				}
-			}
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() {
-				document.body.scrollTop = 0;
-				document.documentElement.scrollTop = 0;
-			}
-		</script>
-		<div class="about-section">
-			<h1>Home</h1>
-			<p>Welcome to my homepage!</p>
+	</div>
+	<footer>
+		<div class="container">
+			<p>Thanks for viewing the site!</p>
 		</div>
-		<h2 style="text-align:center">About Me</h2>
-		<div class="row">
-			<div class="column">
-				<div class="card">
-					<center>
-						<img src="Hunter-Color.jpeg" alt="Hunter" style="width:50%">
-					</center>
-					<div class="container">
-						<h2 style="text-align:center">Hunter Chrisman</h2>
-						<p class="title">Student, Service Desk Analyst, Major Sales</p>
-						<p>I am a student a University of Wisconsin-Green Bay. I work at the IT Service Desk at UWGB and Major Sales at Costco. My interests range from technology to cooking. I am also interested in acting, singing, and I love animals.</p>
-						<p>Email: hunter@chrisman.xyz</p>
-						<p><button class="button">Contact</button></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="container">
-				<p>Thanks for viewing the site!</p>
-			</div>
-		</footer>
-	</body>
+	</footer>
+</body>
+
 </html>
-
